@@ -1,6 +1,7 @@
 package FiguresGeometriques;
 
 import java.util.Arrays;
+import FiguresGeometriques.Figures;
 
 public class GestorFigures {
 

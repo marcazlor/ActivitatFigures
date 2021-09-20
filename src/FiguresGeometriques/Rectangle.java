@@ -12,14 +12,11 @@ public class Rectangle extends Figures{
         this.costat2 = costat2;
     }
 
-    public double areaRectangle(){
+    public double area(){
         return (costat1*costat2);
     }
 
-    @Override
-    public double area() {
-        return 0;
-    }
+
 
     @Override
     public int compareTo(@NotNull Figures o) {

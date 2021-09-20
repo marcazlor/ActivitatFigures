@@ -12,15 +12,12 @@ public class Trinagle extends Figures {
         this.alt = alt;
     }
 
-    public double areaTriangle(){
+    public double area(){
         return ((this.base * this.alt)/2);
     }
 
 
-    @Override
-    public double area() {
-        return 0;
-    }
+
 
     @Override
     public int compareTo(@NotNull Figures o) {
